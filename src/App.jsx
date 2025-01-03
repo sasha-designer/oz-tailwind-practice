@@ -7,6 +7,7 @@ function App() {
   return (
     <main>
       <Header />
+      <div>a</div>
       <section>
         {contents.map((el) => (
           <Content key={el.id} content={el} />
