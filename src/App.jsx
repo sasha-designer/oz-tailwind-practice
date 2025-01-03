@@ -7,7 +7,6 @@ function App() {
   return (
     <main>
       <Header />
-      <div>a</div>
       {/* <section>  */}
       <section className="flex flex-wrap justify-center gap-5 px-5 py-10"> 
         {contents.map((el) => (
